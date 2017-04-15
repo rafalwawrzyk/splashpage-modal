@@ -62,7 +62,8 @@ body {
   justify-content: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  visibility: hidden; }
   .modal .modal-content {
     max-width: 600px;
     background: white;
@@ -158,3 +159,7 @@ input {
 @media (max-width: 430px) {
   .close-btn {
     right: 40px; } }
+
+.visible {
+  transition: 300ms ease-in-out;
+  visibility: visible; }

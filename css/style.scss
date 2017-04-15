@@ -51,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: hidden;
     
     
     .modal-content{
@@ -178,3 +179,13 @@ input{
         right:40px;
     }
 }
+
+.visible{
+    transition: 300ms ease-in-out;
+    visibility: visible;
+    
+}
+
+
+    
+
