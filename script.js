@@ -40,7 +40,7 @@ $(function(){
     function closeModal(){
         modal.css({
             visibility:"hidden",
-            opacity:1.0
+            opacity:0.0
         }).animate({
             opacity:0.0
         })
