@@ -65,8 +65,84 @@ body {
   align-items: center; }
   .modal .modal-content {
     max-width: 600px;
-    background: white; }
+    background: white;
+    padding: 30px;
+    padding-top: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 15px gray;
+    position: absolute; }
 
 .first-par {
   color: black;
-  font-size: 1rem; }
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold; }
+
+.second-par {
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  color: #1f1f1f; }
+
+.close-btn {
+  position: relative;
+  left: 590px;
+  top: 10px;
+  font-size: 30px;
+  cursor: pointer;
+  margin-bottom: 0px;
+  transition: all 100ms ease-in-out;
+  z-index: 1000; }
+  .close-btn:hover {
+    text-shadow: 4px 4px 2px #969696; }
+
+.text {
+  max-width: 50%; }
+
+.modal-content-img {
+  background: url(../img/SplitShire-2640.jpg) no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 300px;
+  height: 385px;
+  overflow: hidden; }
+
+form {
+  position: relative;
+  z-index: 5;
+  background: #1f1f1f;
+  padding: 30px;
+  width: 100%;
+  margin: 0px -30px;
+  width: 100%;
+  top: 30px;
+  border-radius: 0  0 5px 5px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+input {
+  height: 60px;
+  border: none;
+  display: inline-block;
+  padding: 0;
+  font-size: 1.2rem; }
+
+.email {
+  padding: 0 20px;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+.submit {
+  padding: 0 20px;
+  background-color: #ffff41;
+  color: #1f1f1f;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 100ms ease-in-out; }
+  .submit:hover {
+    background-color: #cccc0f; }
