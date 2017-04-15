@@ -84,8 +84,8 @@ body {
   color: #1f1f1f; }
 
 .close-btn {
-  position: relative;
-  left: 590px;
+  position: absolute;
+  right: 10px;
   top: 10px;
   font-size: 30px;
   cursor: pointer;
@@ -128,6 +128,9 @@ input {
   display: inline-block;
   padding: 0;
   font-size: 1.2rem; }
+  input:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 4px #ffff41 inset; }
 
 .email {
   padding: 0 20px;
@@ -143,6 +146,15 @@ input {
   color: #1f1f1f;
   font-weight: bold;
   cursor: pointer;
-  transition: 100ms ease-in-out; }
+  transition: 100ms ease-in-out;
+  text-transform: uppercase; }
   .submit:hover {
     background-color: #cccc0f; }
+
+@media (max-width: 600px) {
+  .modal-content-img {
+    background: none; } }
+
+@media (max-width: 430px) {
+  .close-btn {
+    right: 40px; } }
