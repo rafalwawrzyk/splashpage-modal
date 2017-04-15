@@ -1,0 +1,47 @@
+body {
+  background: url(../img/smartphone-diary-and-silver-pen-on-black-workspace-desk-picjumbo-com.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Rubik Mono One', sans-serif;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: flex-end;
+  -ms-flex-line-pack: end;
+  align-content: flex-end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  height: 100vh; }
+
+.hero {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  font-size: 4rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-width: 600px;
+  margin-bottom: 15%;
+  margin-right: 10%; }
+  @media (max-width: 710px) {
+    .hero {
+      font-size: 3rem;
+      margin-bottom: 30%; } }
+  .hero .message span {
+    background-color: #1f1f1f;
+    color: #ffff41;
+    font-weight: 400;
+    margin: 5px 0;
+    display: inline-block; }
+  .hero .action-message {
+    margin-top: 10px;
+    font-size: 2rem;
+    background-color: #ffff41;
+    color: #1f1f1f;
+    max-width: 180px;
+    font-family: 'Lato', sans-serif; }
