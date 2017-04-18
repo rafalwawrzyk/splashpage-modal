@@ -1,67 +1,56 @@
-$(function(){
-    
-    
-   var checkOut = $('.action-message');
+$(function () {
+
+
+    var checkOut = $('.action-message');
     var closeBtn = $('.close-btn');
     var modal = $('.modal');
-    
-    
+
+
     checkOut.on({
-        click: function(){
-           openModal();
+        click: function () {
+            openModal();
         }
     })
-    
+
     closeBtn.on({
-        click: function(){
+        click: function () {
             closeModal();
         }
     })
-    
+
     modal.on({
-        click: function(event){
-            if(event.target == this){
+        click: function (event) {
+            if (event.target == this) {
                 closeModal();
             }
         }
     })
-    
-    
-    
-    function openModal(){
+
+
+
+    function openModal() {
         modal.css({
             visibility: "visible",
-            opacity:0.0
+            opacity: 0.0
         }).animate({
-            opacity:1.0
-        },500);
+            opacity: 1.0
+        }, 500);
     };
-    
-    function closeModal(){
+
+    function closeModal() {
         modal.css({
-            visibility:"hidden",
-            opacity:0.0
+            visibility: "hidden",
+            opacity: 0.0
         }).animate({
-            opacity:0.0
+            opacity: 0.0
         })
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    });
-    
-    
-    
-    
-   
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+});
