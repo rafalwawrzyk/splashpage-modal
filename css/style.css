@@ -11,7 +11,8 @@ body {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  height: 100vh; }
+  height: 100vh;
+  box-sizing: border-box;}
 
 .hero {
   -webkit-align-self: flex-end;
@@ -35,11 +36,11 @@ body {
   .hero .message span {
     background-color: #1f1f1f;
     color: #ffff41;
-    font-weight: 400;
+    font-weight: 2000;
     margin: 5px 0;
     display: inline-block; }
   .hero .action-message {
-    margin-top: 10px;
+    margin-top: 11px;
     font-size: 2rem;
     background-color: #e2e23e;
     color: #1f1f1f;
@@ -136,7 +137,7 @@ input {
 .email {
   padding: 0 20px;
   font-size: 1.2rem;
-  margin-right: 10px;
+  margin-right: 11px;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1; }
@@ -150,7 +151,7 @@ input {
   transition: 100ms ease-in-out;
   text-transform: uppercase; }
   .submit:hover {
-    background-color: #cccc0f; }
+    background-color: #dfdf27; }
 
 @media (max-width: 600px) {
   .modal-content-img {
