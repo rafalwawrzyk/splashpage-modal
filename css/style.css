@@ -14,6 +14,11 @@ body {
   height: 100vh;
   }
 
+  .upper{
+    font-size: 25px;
+    background-color: red;
+  }
+
 .hero {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
