@@ -19,6 +19,10 @@ body {
     background-color: red;
   }
 
+  .lower {
+    text-transform: lowercase;
+  }
+
 .hero {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
