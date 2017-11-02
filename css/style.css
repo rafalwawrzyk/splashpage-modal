@@ -12,7 +12,7 @@ body {
   -ms-flex-pack: end;
   justify-content: flex-end;
   height: 100vh;
-  box-sizing: border-box;}
+  }
 
 .hero {
   -webkit-align-self: flex-end;
