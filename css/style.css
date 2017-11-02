@@ -23,6 +23,10 @@ body {
     text-transform: lowercase;
   }
 
+  .right{
+    text-decoration: line-through;
+  }
+
 .hero {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
