@@ -19,6 +19,22 @@ body {
     background-color: red;
   }
 
+  .lower {
+    text-transform: lowercase;
+  }
+
+  .right{
+    text-decoration: line-through;
+  }
+
+  .left{
+    text-align: center;
+  }
+
+  .bottom{
+    color:red
+  }
+
 .hero {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
