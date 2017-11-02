@@ -31,6 +31,10 @@ body {
     text-align: center;
   }
 
+  .bottom{
+    color:red
+  }
+
 .hero {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
