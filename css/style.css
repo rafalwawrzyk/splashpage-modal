@@ -27,6 +27,10 @@ body {
     text-decoration: line-through;
   }
 
+  .left{
+    text-align: center;
+  }
+
 .hero {
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
