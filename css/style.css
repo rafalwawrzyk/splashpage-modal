@@ -12,7 +12,12 @@ body {
   -ms-flex-pack: end;
   justify-content: flex-end;
   height: 100vh;
-  box-sizing: border-box;}
+  }
+
+  .upper{
+    font-size: 25px;
+    background-color: red;
+  }
 
 .hero {
   -webkit-align-self: flex-end;
